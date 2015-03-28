@@ -1,0 +1,355 @@
+/*  ---------- LEARNING PAGE --------  */ 
+
+body {
+    margin: 0;
+    padding: 0;
+     font-family: "Ubuntu";
+     background-color: #f1efe3;
+     color: #333;
+}
+
+a {
+    color: #333;
+}
+
+.mainHeader {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #222;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px #000;
+    z-index: 1000;
+    background-color: #00549E; 
+    color: #fff;
+}
+.courseTitle {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    border-bottom: 1px solid #ccc;
+    height: 200px;
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+#title {
+    position: fixed;
+    font-family: "Ubuntu";
+    font-size: 40px;
+    color: white !important;
+    top: 8px;
+    margin-left: 30px;
+    text-shadow: 1px 1px black;
+}
+
+.enterMod {
+    float: right;
+    height: 100%;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    line-height: 60px;
+    text-shadow: 1px 1px 0px black;
+    text-align: center;
+}
+
+.enterMod:hover {
+    float: right;
+    height: 100%;
+    width: auto;
+    padding: left: 20px;
+    padding-right: 20px;
+    color: white;
+    line-height: 60px;
+    background-color: #004078;
+}
+
+.courseStats {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.statIcon {
+    margin-bottom: -5px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.courseDisc {
+    position: relative;
+    width: 100%;
+    background-color: none;
+    border-bottom: 1px solid #999;
+    min-height: 100px;
+    height: auto;
+}
+
+.discText {
+    width: calc(84% - 60px);
+    height: auto;
+    margin-left: 8%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.pathWrapper {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    background-color: red;
+    margin-bottom: 100px;
+
+}
+
+.stepContainer{
+    position: relative;
+    width: 850px;
+    height: auto;
+    float: left;
+    margin-left: calc(50% - 600px);
+    padding: 50px 0px;
+}
+
+.stepwrapper {
+    position: relative;
+    width: 800px;
+    height: auto;
+}
+
+
+.stepdisc {
+    height: 130px;
+    width: 698px;
+    margin-left: 60px;
+    background-color: #fefefe;
+    border-top: 1px solid #ccc;
+    box-shadow: 0px -1px 1px 0px #ccc;
+}
+
+#stepID {
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px 20px;
+    text-align: 1px 1px black;
+}
+
+#stepShort {
+    padding: 0px 20px;
+    line-height: 23px;
+    font-weight: 700;
+}
+
+.pathSidedata{
+    width: 350px;
+    height: 100px;
+    float: right;
+    margin-right: calc(50% - 600px);
+    padding: 30px 0px;
+    line-height: 23px;
+}
+
+#authorBox, #forumBox {
+    width: 90%;
+    margin-left: 5%;
+    min-height: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    background-color: #fafafa;
+    border-radius: 3px;
+}
+
+#sideHead {
+    font-weight: 700;
+    font-weight: 28px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#sideData {
+    padding: 10px;
+}
+
+.coursePic {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #444;
+    margin-left: 100px;
+    margin-top: 40px;
+    float: left;
+    border-radius: 10px;
+}
+.courseHeader {
+    position: relative;
+    width: 600px;
+    height: 110px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #444;
+    text-shadow: 1px 1px #fff;
+}
+.title-author {
+    font-size: 15px;
+    font-weight: 300;
+    color: #888;
+    margin-top: 5px;
+}
+.courseSupplements {
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 100%;
+    box-shadow: 0px 2px 20px 1px black;
+    background-size: 400px;
+    background-position: bottom;
+    background-image: url('../img/web.jpg');
+}
+
+
+
+/* ------------ LANDING PAGE -------------*/
+
+.centerPic {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+    background-color: #aaa;
+}
+
+.searchWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.searchCaption {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 45%;
+}
+#searchInnerWrapper {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 55%;
+}
+
+.searchBox {
+    position: relative;
+    width : 85%;
+    margin-left: 30px;
+    margin-top: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border: 8px solid rgba(10,10,10,0.5);
+    background-color: white;
+}
+
+.searchInput {
+    height: 45px;
+    font-size: 40px;
+    outline: none;
+    border: 0px;
+    padding-left: 20px;
+}
+
+#searchBut {
+    height: 40px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+/* ------- LOGIN ----------------*/
+
+.registerText {
+    position: relative;
+    margin-top: 150px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 0px white;
+}
+
+.registerBox {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background-color: red;
+    margin:  auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 0px 1px #eee;
+}
+
+.fbTag {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.FBbutton {
+    width: 250px;
+    margin-left: 75px;
+}
+
+.field {
+    width: 300px;
+    margin-left: 49px;
+    margin-top: 10px;
+    height: 35px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.registerBack {
+    position: absolute;
+    width: 800px;
+    margin-left: -150px;
+    margin-top: 50px;
+}
+
+.submit {
+    width: 150px;
+    margin-left: 125px;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.submit:hover {
+    color: white;
+    background-color: #86a928;
+}
+
+/* ------ WIZARD -------------*/
+
+#step1 {
+    position: relative;
+    margin-top: 100px;
+}
